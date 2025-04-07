@@ -1,0 +1,8 @@
+
+body { font-family: Arial, sans-serif; text-align: center; background-color: #1c1c1c; color: white; }
+#splash { margin-top: 50px; }
+.floppa { width: 100px; animation: floppaSpin 3s infinite; }
+@keyframes floppaSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
